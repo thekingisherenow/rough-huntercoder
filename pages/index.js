@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Coder's blog</title>
+        <title>Coder&apos;s blog</title>
         <meta name="description" content="This is a blog of a coder." />
         <meta name="keywords" content='blog' />
         <link rel="icon" href="/favicon.ico" />
@@ -20,14 +20,14 @@ export default function Home() {
 
       <main className='max-w-6xl mx-auto text-center p-10' >
         <h1  className='text-3xl'>
-          Coder's blog
+          Coder&apos;s blog
         </h1>
 
         <p className='text-red-600 text-4xl p-5 '>
-          Yess.. coders do blog.
+          Yess.. coder&apos;s do blog. 
          
         </p>
-        <code className={styles.code}>console.log("hello world ! ")</code>
+        <code className={styles.code}>console.log(&apos;hello world ! &apos;)</code>
         <div >
           <div >
             <h1 className='text-6xl p-4 mt-20'>Latest blogs</h1>
