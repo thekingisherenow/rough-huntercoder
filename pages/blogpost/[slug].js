@@ -1,5 +1,4 @@
-import { useRouter } from 'next/router'
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 //Step1 : find the file corresponding to the slug,
 //step2 : Populate them inside the page.
 
